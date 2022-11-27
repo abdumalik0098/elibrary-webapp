@@ -1,0 +1,43 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>eLibrary.BlazorApp</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="books">All Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="idbook">Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="delbook">Delete</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="addbook">Add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="updatebook">Update</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>

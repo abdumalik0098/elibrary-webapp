@@ -1,0 +1,17 @@
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\bin\Debug\net6.0\Service.Lib.deps.json
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\bin\Debug\net6.0\Service.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\bin\Debug\net6.0\Service.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\bin\Debug\net6.0\Data.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\bin\Debug\net6.0\Domain.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\bin\Debug\net6.0\Data.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\bin\Debug\net6.0\Domain.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.csproj.AssemblyReference.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.AssemblyInfoInputs.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.AssemblyInfo.cs
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.csproj.CoreCompileInputs.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.csproj.CopyComplete
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\refint\Service.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\Service.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Service.Lib\obj\Debug\net6.0\ref\Service.Lib.dll

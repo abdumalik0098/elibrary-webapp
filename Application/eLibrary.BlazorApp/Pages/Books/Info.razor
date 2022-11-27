@@ -1,0 +1,46 @@
+﻿@page "/idbook"
+@using eLibrary.BlazorApp.Data
+
+<h3>Info</h3>
+
+<input type="number" @bind-value="@id"/>
+<input type="submit" value="Send" @onclick="OnInitId"/>
+
+<hr />
+@if (on)
+{
+    <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Author</th>
+            <th>Publisher</th>
+        </tr>
+        @if (book != null)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+                <td>@book.Year</td>
+                <td>@book.Author.FullName</td>
+                <td>@book.Publisher.Name</td>
+            </tr>
+        }
+        
+    </thead>
+</table>
+}
+
+@code {
+    private Book? book = new Book();
+    int id;
+    bool on = false;
+    async Task OnInitId()
+    {
+        BookService bookService = new BookService();
+        book = await bookService.GetByIdMethod(id);
+        on = true;
+    }
+}

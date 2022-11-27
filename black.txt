@@ -1,0 +1,23 @@
+@code {
+    HttpClient httpClient = new HttpClient();
+
+    public List<Book>? books = new List<Book>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var req = "https://localhost:7125/api/books";
+        books = await httpClient.GetFromJsonAsync<List<Book>>(req);
+
+        /*
+        var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:7125/api/books");
+
+        var client = ClientFactory.CreateClient();
+        var response = await client.SendAsync(request);
+
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        //books = await JsonSerializer.DeserializeAsync<List<Book>>(responseStream);
+        */
+        
+    }
+
+}

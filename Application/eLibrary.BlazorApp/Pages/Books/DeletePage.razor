@@ -1,0 +1,25 @@
+﻿@page "/delbook"
+@using eLibrary.BlazorApp.Data
+
+<h3>DeletePage</h3>
+
+<input type="number" @bind-value="@id"/>
+<input type="submit" value="Send" @onclick="OnDeleteById"/>
+
+<hr />
+
+@if (on)
+{
+   <span>@id - Deleted</span> 
+}
+
+@code {
+    int id;
+    bool on = false;
+    async Task OnDeleteById()
+    {
+        BookService bookService = new BookService();
+        await bookService.DeleteMethod(id);
+        on = true;
+    }
+}

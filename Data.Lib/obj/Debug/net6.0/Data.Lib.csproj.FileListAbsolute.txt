@@ -1,0 +1,15 @@
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\bin\Debug\net6.0\Data.Lib.deps.json
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\bin\Debug\net6.0\Data.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\bin\Debug\net6.0\Data.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\bin\Debug\net6.0\Domain.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\bin\Debug\net6.0\Domain.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.csproj.AssemblyReference.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.AssemblyInfoInputs.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.AssemblyInfo.cs
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.csproj.CoreCompileInputs.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.csproj.CopyComplete
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\refint\Data.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\Data.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Data.Lib\obj\Debug\net6.0\ref\Data.Lib.dll

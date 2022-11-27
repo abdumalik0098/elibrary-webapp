@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Data.Lib/1.0.0": {
+        "dependencies": {
+          "Domain.Lib": "1.0.0"
+        },
+        "runtime": {
+          "Data.Lib.dll": {}
+        }
+      },
+      "Domain.Lib/1.0.0": {
+        "runtime": {
+          "Domain.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Data.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

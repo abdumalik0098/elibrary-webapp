@@ -1,0 +1,38 @@
+﻿@page "/books"
+@using eLibrary.BlazorApp.Data
+
+<h3>Index</h3>
+<hr />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Author</th>
+            <th>Publisher</th>
+        </tr>
+        @foreach (var item in books!)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Year</td>
+                <td>@item.Author.FullName</td>
+                <td>@item.Publisher.Name</td>
+            </tr>
+        }
+    </thead>
+</table>
+
+@code {
+
+    private List<Book>? books = new List<Book>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        BookService bookService = new BookService();
+        books = await bookService.GetMethod();
+    }
+
+}

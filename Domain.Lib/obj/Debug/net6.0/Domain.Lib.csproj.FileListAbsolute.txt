@@ -1,0 +1,12 @@
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\bin\Debug\net6.0\Domain.Lib.deps.json
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\bin\Debug\net6.0\Domain.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\bin\Debug\net6.0\Domain.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\Domain.Lib.csproj.AssemblyReference.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\Domain.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\Domain.Lib.AssemblyInfoInputs.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\Domain.Lib.AssemblyInfo.cs
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\Domain.Lib.csproj.CoreCompileInputs.cache
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\Domain.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\refint\Domain.Lib.dll
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\Domain.Lib.pdb
+D:\_WorkPlace\#1 Разработка\_CSHARP\API\eLibraryApp\Domain.Lib\obj\Debug\net6.0\ref\Domain.Lib.dll

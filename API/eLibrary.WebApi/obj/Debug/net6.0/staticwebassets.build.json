@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "a+tDvboQrTwrWO/VWONLhLIttMhguWkzXa8W0Wql2L8=",
+  "Source": "eLibrary.WebApi",
+  "BasePath": "_content/eLibrary.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

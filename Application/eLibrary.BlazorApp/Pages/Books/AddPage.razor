@@ -1,0 +1,79 @@
+﻿@page "/addbook"
+@using eLibrary.BlazorApp.Data
+
+<h3>AddPage</h3>
+
+<hr />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td><input type="number" @bind-value="@idB" /></td>
+            <td><input type="text" @bind-value="@title" /></td>
+            <td><input type="number" @bind-value="@year" /></td>
+        </tr>
+    </thead>
+    <thead>
+        <tr>
+            <th>AuthorId</th>
+            <th>AuthorName</th>
+            <th>AuthorAge</th>
+        </tr>
+        <tr>
+            <td><input type="number" @bind-value="@idA" /></td>
+            <td><input type="text" @bind-value="@fullName" /></td>
+            <td><input type="number" @bind-value="@age" /></td>
+        </tr>
+    </thead>
+    <thead>
+        <tr>
+            <th>PublisherId</th>
+            <th>PublisherName</th>
+        </tr>
+        <tr>
+            <td><input type="number" @bind-value="@idP" /></td>
+            <td><input type="text" @bind-value="@nameP" /></td>
+        </tr>
+    </thead>
+</table>
+
+<button type="submit" class="btn btn-primary mt-3" @onclick="OnAdd">Submit</button>
+@if (on)
+{
+    <div class="mt-3">
+        <span>@title - Added</span>
+    </div>
+}
+
+@code {
+    bool on = false;
+
+    int idA;
+    string? fullName;
+    int age;
+
+    int idP;
+    string? nameP;
+
+    int idB;
+    string title;
+    int year;
+
+    async Task OnAdd()
+    {
+        BookService bookService = new BookService();
+        Author author = new Author(idA, fullName, age);
+        Publisher publisher = new Publisher(idP, nameP);
+
+        Book book = new Book(idB, title, year, author, publisher);
+
+        await bookService.AddMethod(book);
+
+        on = true;
+    }
+
+}
